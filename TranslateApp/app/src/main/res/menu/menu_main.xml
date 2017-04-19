@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/izbrann"
+        android:orderInCategory="100"
+        android:title="@string/best"
+        android:onClick="onClickBest"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/hist"
+        android:orderInCategory="100"
+        android:onClick="clickHist"
+        android:title="@string/history"
+        app:showAsAction="never"/>
+</menu>

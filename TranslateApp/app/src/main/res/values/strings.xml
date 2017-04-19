@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Simple Translator</string>
+    <string name="best">Избранное</string>
+    <string name="history">История</string>
+
+</resources>

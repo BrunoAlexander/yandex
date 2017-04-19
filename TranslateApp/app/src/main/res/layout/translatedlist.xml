@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/transWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Привет"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/examplesGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Здороваюсь"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/transWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+
+    <TextView
+        android:id="@+id/getSynonims"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Хай"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/examplesGet"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
