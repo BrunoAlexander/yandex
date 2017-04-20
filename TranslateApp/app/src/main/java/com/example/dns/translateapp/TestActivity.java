@@ -71,10 +71,7 @@ public class TestActivity extends AppCompatActivity {
         });
 
         sqlDataBase = new SQLDataBase(this);
-        //не забудь удалить это говно!
-        String [] names = {"Вася","Петр","Кумыс","Антон","Кошечкин","Навуходоносор"};
-        ArrayAdapter<String> adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,names);
-        listView.setAdapter(adapter);
+
     }
 
     @Override
@@ -97,7 +94,7 @@ public class TestActivity extends AppCompatActivity {
         if(!et.getText().toString().isEmpty()&&!txt.getText().toString().isEmpty()){
             placeBest(et.getText().toString(),txt.getText().toString());
         }else{
-            Log.d("Ну и залупа","БЛЯТЬ");
+            Log.d("Нечего добавлять","сударь-с");
         }
     }
 
